@@ -1,0 +1,192 @@
+/*Основний колір #212121*/
+/*Другорядний колір #757575 */
+/*Білий колір #FFFFFF */
+/* Акцент #2196F3 */
+
+:root {
+    --Main-color:#212121;
+    --Second-color:#757575;
+    --White-color:#FFFFFF;
+    --Color-accent:#2196F3;
+}
+
+a {
+    color: inherit;
+}
+
+a:visited {
+    color: var(--Main-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.main-section-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.17;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    color: var(--Main-color);
+    background-color: var(--White-colorhite-color);
+}
+
+.header-logo {
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 0.86;
+    color: var(--Main-color);
+}
+
+.header-logo:visited {
+    color: var(--Main-color);
+}
+
+.header-logo span {
+    color: var(--Color-accent);
+}
+
+.header-navigation-list-item a {
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    line-height: 1.17;
+}
+
+.header-navigation-list-item > a:hover,
+.header-navigation-list-item > a:focus {
+    color: var(--Color-accent);
+}
+
+.header-contact-list-item > a {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--Second-color);
+    text-decoration: none;
+    line-height: 1.17;
+}
+
+.header-contact-list-item > a:hover,
+.header-contact-list-item > a:focus {
+   color: var(--Color-accent);
+}
+
+.main-heading {
+    background-color: #2F303A;
+}
+
+.main-heading-title {
+    font-size: 44px;
+    font-weight: 900;
+    color: var(--White-color);
+    text-align: center;
+    line-height: 1.36;
+}
+
+
+.main-heading-button {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--White-color);
+    background-color:var(--Color-accent);
+    border-radius: 4px;
+    width: 216px;
+    height: 50px;
+    cursor: pointer;
+    line-height: 1.88;
+}
+
+
+.main-info-list-item-title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+}
+
+.main-info-list-item-text {
+    font-size: 14px;
+    color: var(--Second-color);
+    line-height: 1.71;
+}
+
+.main-team-list-item-title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.19;
+}
+
+.main-team-list-item-text {
+    font-size: 16px;
+    color: var(--Second-color);
+    line-height: 1.19;
+}
+
+.footer {
+    background-color: #2F303A;
+}
+
+.footer-logo {
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 1.19;
+    color: var(--White-color);
+}
+
+.footer-logo:visited {
+    color: var(--White-color);
+}
+
+.footer-logo span {
+    color: var(--Color-accent);
+}
+
+.footer-address {
+    font-size: 14px;
+    color: var(--White-color);
+    line-height: 1.71;
+    font-style: normal;
+}
+
+.address-contact{
+    font-size: 14px;
+    color: hsla(0, 0%, 100%, 0.6);
+    text-decoration: none;
+}
+
+.address-contact:hover,
+.address-contact:focus {
+   color: var(--Color-accent);
+}
+
+.main-filtr-list-item button {
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #F5F4FA;
+    line-height: 1.62;
+    padding: 6px 22px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.main-filtr-list-item button:hover {
+    color: var(--White-color);
+    background-color: var(--Color-accent);
+}
+
+.main-goods-list-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+}
+
+.main-goods-list-text {
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--Second-color);
+}
