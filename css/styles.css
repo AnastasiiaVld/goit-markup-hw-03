@@ -61,12 +61,17 @@ img {
     padding-bottom: 46px;
 }
 
+.header-container {
+    display: flex;
+}
+
 .header-logo {
     font-size: 26px;
     font-weight: 700;
     text-decoration: none;
     line-height: 0.86;
     color: var(--Main-color);
+    margin-right: 93px;
 }
 
 .header-logo:visited {
@@ -77,6 +82,14 @@ img {
     color: var(--Color-accent);
 }
 
+.header-navigation-list {
+    margin-right: 344px;
+}
+
+.header-navigation-list-wrapper {
+    display: flex;
+}
+
 .header-navigation-list-item a {
     font-size: 14px;
     font-weight: 500;
@@ -84,9 +97,21 @@ img {
     line-height: 1.17;
 }
 
+.header-navigation-list-item:not(:last-child) {
+    margin-right: 50px;
+}
+
 .header-navigation-list-item > a:hover,
 .header-navigation-list-item > a:focus {
     color: var(--Color-accent);
+}
+
+.header-contact-container {
+    display: flex;
+}
+
+.header-contact-list-item:not(:last-child) {
+    margin-right: 50px;
 }
 
 .header-contact-list-item > a {
@@ -113,7 +138,8 @@ img {
     color: var(--White-color);
     line-height: 1.36;
     margin-bottom: 30px;
-
+    max-width: 670px;
+    padding-top: 200px;
 }
 
 .main-heading-button {
@@ -138,9 +164,6 @@ img {
     background-color: var(--White-color);
     color: var(--Color-accent);
 }
-
-
-
 
 .main-info-list-item-title {
     font-size: 14px;
